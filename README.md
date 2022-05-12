@@ -60,7 +60,7 @@ A question must be open-ended in order to be considered as a good question. In o
 | Construct, Demonstrate, Explore, Justify | 5  |
 | Compare, Contrast, Critique, Deduce, Explain, Interpret | 6  |
 | Examine, Investigate, Synthesize  | 7  |
-| Analyze, Discuss, Evaluate, Justify, Create, Design, To what extent | 8  |
+| Analyze, Discuss, Evaluate, Justify, Create, Design | 8  |
 
 The whole model is used with a set of assumptions being:
 1) A question will always have exactly one command term present. If multiple found, the question will be graded only in accordance to the first command term found.
