@@ -67,3 +67,7 @@ I was able to categorise command terms in 8 different categories according to th
 The whole model is used with a set of assumptions being:
 1) A question will always have exactly one command term present. If multiple found, the question will be graded only in accordance to the first command term found.
 2) If no command terms are found, the question is graded 0 for Open Ended Nature.
+
+
+## Sample Program
+Story.txt and Questions.txt are two sample files that I have provided to test the model. Story.txt is a chapter from a short story and Questions.txt is a list of questions regarding to the story where each line is a new question. 
