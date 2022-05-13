@@ -23,7 +23,7 @@ In my model to identify the good-est questions of all, I have decided to incorpo
 
 ## Good Question Identifier:
 
-The model will identify questions that are good using a traditional grading system with the help of 4 criteria. a) Relevance and Context, b) Open Ended Nature, c) ——————— and, d) ——————. Each criterion is given a grading scale respective to their importance in formation of a good question and total tallies upto 30 points. The grade scale is described below. The models in each criterion will determine how many points each question is worth. If the combined tally of points from each criterion is more than or equal to 21 points (70%), the question is considered as a good question. The program will sort the questions in an order that starts from the good-est question to the worst. 
+The model will identify questions that are good using a traditional grading system with the help of 4 criteria. a) Relevance and Context, and b) Open Ended Nature. Each criterion is given a grading scale respective to their importance in formation of a good question and total tallies upto 11 points. The grade scale is described below. The models in each criterion will determine how many points each question is worth. If the combined tally of points from each criterion is more than or equal to 21 points (70%), the question is considered as a good question. The program will sort the questions in an order that starts from the good-est question to the worst. 
 
 Some of the text processing ML algorithms I used in my models are:
 - Stopwords filteration
@@ -49,7 +49,9 @@ Stopwords filteration and tokenization is also ran on each questions and each wo
 | above 0.50 | 8  |
 
 2) Open Ended Nature:
-A question must be open-ended in order to be considered as a good question. In order to check the open-ended-ness of a question I will be using a model that highly relies on command terms. After a lot of research and development, and use of few online resources, I was able to categorise command terms in 4 different categories according to their open-ended-ness. The model will look up for the command term present present in the question and the question will be graded according to the rubric. The rubric is provided below:
+A question must be open-ended in order to be considered as a good question. In order to check the open-ended-ness of a question I will be using a model that highly relies on command terms. After a lot of research and development, and use of few online resources, I was able to come up with a model on how to test the open-endedness of any question (to some extent). The model goes as follows:
+  - Check whether the question ends with a "?" or not. If it does, check its first word and test it through the first_word_list to obtain a value of the question. If not, check whether the question contains any command terms and test it through the command_term_list to obtain a value of question.
+I was able to categorise command terms in 8 different categories according to their open-ended-ness. The model will look up for the command term present present in the question and the question will be graded according to the rubric. I was also able to sort the first word list according the open-endedness of each term. The rubrics are provided below:
 
 | List of Command terms  | Open Ended Nature grades |
 | ------------- | ------------- |
