@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>986537958803-349mbc3dllb0861r74snjnen34g2a2ba.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.986537958803-349mbc3dllb0861r74snjnen34g2a2ba</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBLTyrCYR_JsnhMBddvJ3GyxFoLJisxy10</string>
+	<key>GCM_SENDER_ID</key>
+	<string>986537958803</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>edu.maryland.cmsc436.spring2023.openTok</string>
+	<key>PROJECT_ID</key>
+	<string>opentok-8a5a1</string>
+	<key>STORAGE_BUCKET</key>
+	<string>opentok-8a5a1.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:986537958803:ios:d3014d9f8b5ada44dcdc66</string>
+	<key>DATABASE_URL</key>
+	<string>https://opentok-8a5a1-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>
